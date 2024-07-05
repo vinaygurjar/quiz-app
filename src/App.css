@@ -1,0 +1,78 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  background-color: #282c34;
+  padding: 20px;
+  text-align: center;
+}
+
+.app-header h1 {
+  color: #61dafb;
+}
+
+.app-main {
+  flex: 1;
+  padding: 20px;
+}
+
+.app-footer {
+  background-color: #282c34;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Quiz.css */
+.quiz {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result-section {
+  margin-top: 20px;
+}
+
+.question-section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #61dafb;
+}
+
+p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.options-section button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.options-section button:hover {
+  background-color: #318ce7;
+}
